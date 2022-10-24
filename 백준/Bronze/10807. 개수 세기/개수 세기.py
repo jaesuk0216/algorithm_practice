@@ -3,10 +3,6 @@ n = 0
 
 num = list(map(int,input().split()))
 
-count = int(input())
+v = int(input())
 
-for i in range(cn) :
-    if num[i] == count :
-        n +=1
-
-print(n)
+print(num.count(v))
